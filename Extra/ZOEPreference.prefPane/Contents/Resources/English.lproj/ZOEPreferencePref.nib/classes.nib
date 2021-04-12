@@ -1,0 +1,59 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                displayDirectory = id; 
+                displayURL = id; 
+                pause = id; 
+                start = id; 
+                stop = id; 
+                toggle = id; 
+                toggleAutostart = id; 
+                toggleMenu = id; 
+                update = id; 
+            }; 
+            CLASS = ZOEController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_autostartButton" = NSButton; 
+                "_cpuField" = NSTextField; 
+                "_cpuIndicator" = NSProgressIndicator; 
+                "_fileButton" = NSButton; 
+                "_fileIconButton" = NSButton; 
+                "_memoryField" = NSTextField; 
+                "_memoryIndicator" = NSProgressIndicator; 
+                "_menuButton" = NSButton; 
+                "_pauseButton" = NSButton; 
+                "_priorityField" = NSTextField; 
+                "_prioritySlider" = NSSlider; 
+                "_startButton" = NSButton; 
+                "_statusField" = NSTextField; 
+                "_stopButton" = NSButton; 
+                "_uptimeButton" = NSButton; 
+                "_uptimeField" = NSTextField; 
+                "_urlButton" = NSButton; 
+                "_urlIconButton" = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ZOEPreferencePref; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_controller" = ZOEController; }; 
+            SUPERCLASS = NSPreferencePane; 
+        }
+    ); 
+    IBVersion = 1; 
+}

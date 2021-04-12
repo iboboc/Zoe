@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ZOEPreference</string>
+	<key>CFBundleGetInfoString</key>
+	<string>ZOE</string>
+	<key>CFBundleIconFile</key>
+	<string>Alien</string>
+	<key>CFBundleIdentifier</key>
+	<string>ZOE</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ZOE</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>ZOE</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>NSMainNibFile</key>
+	<string>ZOEPreferencePref</string>
+	<key>NSPrefPaneIconFile</key>
+	<string>Alien.icns</string>
+	<key>NSPrefPaneIconLabel</key>
+	<string>ZOE</string>
+	<key>NSPrincipalClass</key>
+	<string>ZOEPreferencePref</string>
+</dict>
+</plist>
